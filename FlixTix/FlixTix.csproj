@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default1.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="SeatPicker.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +81,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeatPicker.aspx.cs">
+      <DependentUpon>SeatPicker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeatPicker.aspx.designer.cs">
+      <DependentUpon>SeatPicker.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
